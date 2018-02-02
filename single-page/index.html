@@ -1,0 +1,607 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>The Gym Single Page Template</title>
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="../css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="../js/single-page/jquery-2.1.4.min.js"></script>
+<script src="../js/single-page/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+<!--light-box-files -->
+<script src="../js/single-page/pop-img.js"></script>
+<script src="../js/single-page/responsiveslides.min.js"></script>
+<!--banner Slider starts Here-->
+<script src="../js/single-page/rslides.js"></script>
+<!-- Custom Theme files -->
+<!-- animated-css -->
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<!-- animated-css -->
+<link href="../css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="../js/single-page/wow.min.js"></script>
+<script  type="text/javascript" src="../js/single-page/wow.new.js"></script>
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="../js/single-page/move-top.js"></script>
+<script type="text/javascript" src="../js/single-page/easing.js"></script>
+<script type="text/javascript" src="../js/single-page/scroll.js"></script>
+<!-- start-smooth-scrolling-->
+<link href="../css/style-single-page.css" rel='stylesheet' type='text/css' />
+<!--webfonts-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--webfonts-->
+<!--start-top-nav-script-->
+<script src="../js/single-page/main-menu.js"  type="text/javascript"></script>
+<!--End-top-nav-script-->
+</head>
+<body>
+<div id="small-dialog-2" class="modal fade single-page-modal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <form action="#" method="post">
+          <div class="form-control">
+            <label class="header">First Name <span>:</span></label>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" title="Please enter your First Name" required="">
+          </div>
+          <div class="form-control">
+            <label class="header">Last Name <span>:</span></label>
+            <input type="text" id="lastname" name="firstname" placeholder="Last Name" title="Please enter your Last Name" required="">
+          </div>
+          <div class="form-control">
+            <label class="header">Email Address <span>:</span></label>
+            <input type="email" id="email" name="email" placeholder="mail@example.com" title="Please enter a valid email" required="">
+          </div>
+          <div class="form-control">
+            <label class="header">Password <span>:</span></label>
+            <input type="password" class="lock" name="password" placeholder="Password" id="password1" required="">
+          </div>
+          <div class="form-control">
+            <label class="header">Confirm Password <span>:</span></label>
+            <input type="password" class="lock" name="confirm-password" placeholder="Confirm Password" id="password2" required="">
+          </div>
+          <div class="plans_submit form-control">
+            <input type="submit" class="register" value="Register">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg"  id="home">
+  <div class="bg-slider">
+    <div id="myCarousel" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="item active" style=""> <img src="http://placehold.it/1920x1199" alt="" class="">
+          <div class="carousel-caption"> </div>
+        </div>
+        <div class="item"> <img src="http://placehold.it/1920x1199" alt="" class="">
+          <div class="carousel-caption"> </div>
+        </div>
+        <div class="item" style=""> <img src="http://placehold.it/1920x1199" alt="" class="">
+          <div class="carousel-caption"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start-header-->
+  <div class="header">
+    <div class="top-header navbar-fixed-top sticky"  id="header" role="navigation">
+      <div class="container">
+        <div class="logo"> <a href="#"><img src="../images/logo.png" title="gym" alt="" /></a> </div>
+        <!--start-top-nav-->
+        <nav class="top-nav">
+          <ul class="top-nav">
+            <li class="active"><a href="#home" class="scroll">Home</a></li>
+            <li><a href="#services" class="scroll">Services</a></li>
+            <li><a href="#port" class="scroll">Portfolio</a></li>
+            <li><a href="#about" class="scroll">About</a></li>
+            <li><a href="#team" class="scroll">Team</a></li>
+            <li><a href="#contact" class="scroll">Contact</a></li>
+          </ul>
+          <a href="#" id="pull"><img src="../images/single-page/menu-icon.png" title="menu" alt="" class="display-one"/> <img src="../images/single-page/menu-icon-b.png" class="display-two" title="menu" alt="" /> </a> </nav>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-header-->
+  <!-- banner -->
+  <div class="banner wow fadeIn" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="banner-info text-center">
+        <h1>The <span class="blue-txt">Gym template</span></h1>
+        <br />
+        <span> </span>
+        <p>Clean Template with some Awesome Features</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- banner -->
+<!-- services -->
+<div class="services relative"> <span id="services"  class="hotspot"></span>
+  <div class="container service-grid">
+    <div class="service-head text-center">
+      <h2>Our Core Services</h2>
+      <span> </span> </div>
+    <!-- services-grids -->
+    <div class="services-grids text-center">
+      <div class="shape-container text-center col-xs-4">
+        <div class="rotate-div wow bounceIn" data-wow-delay="0.4s"> <img src="../images/hover-img-blue.png" class="hov-img" alt="" height="400" width="400"> <img src="http://placehold.it/300x300" alt=""> </div>
+        <h3><a href="">Martial Arts</a></h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="shape-container text-center col-xs-4">
+        <div class="rotate-div wow bounceIn" data-wow-delay="0.4s"> <img src="../images/hover-img-blue.png" class="hov-img" alt="" height="400" width="400"> <img src="http://placehold.it/300x300" alt="" > </div>
+        <h3><a href="">Muscle Training</a></h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="shape-container text-center col-xs-4">
+        <div class="rotate-div wow bounceIn" data-wow-delay="0.4s"> <img src="../images/hover-img-blue.png" class="hov-img" alt="" height="400" width="400"> <img src="http://placehold.it/300x300" > </div>
+        <h3><a href="">Cycling</a></h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <!-- services-grids -->
+  </div>
+</div>
+<!-- services -->
+<div class="clearfix"> </div>
+<!-- Other Expertise -->
+<div class="expertise">
+  <div class="expertice-grids">
+    <div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
+      <div class="expertise-head">
+        <h3>Our awesome Classes</h3>
+        <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt consequat sem cure  digni ssim. </p>
+      </div>
+      <div class="expertise-left-inner-grids">
+        <div class="e-left-inner-grid">
+          <div class="e-left-inner-grid-left"> <span class="e-icon1"> </span> </div>
+          <div class="e-left-inner-grid-right">
+            <h4>Muscle Building</h4>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="e-left-inner-grid">
+          <div class="e-left-inner-grid-left"> <span class="e-icon2"> </span> </div>
+          <div class="e-left-inner-grid-right">
+            <h4>Cycling</h4>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="e-left-inner-grid">
+          <div class="e-left-inner-grid-left"> <span class="e-icon3"> </span> </div>
+          <div class="e-left-inner-grid-right">
+            <h4>Aerobics</h4>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="e-left-inner-grid">
+          <div class="e-left-inner-grid-left"> <span class="e-icon4"> </span> </div>
+          <div class="e-left-inner-grid-right">
+            <h4>Fighting</h4>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+    <div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s"> </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<!-- Other Expertise -->
+<!-- portfolio -->
+<div class="portfolio relative" > <span class="hotspot" id="port"></span>
+  <div class="portfolio-top">
+    <div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
+      <div class="portfolio-top-right"> </div>
+    </div>
+    <div class="col-md-8">
+      <div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+        <h3>Amazing Portfolio</h3>
+        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+        <p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
+        <div class="portfolio-top-left-grids">
+          <div class="portfolio-top-left-grid">
+            <div class="portfolio-top-left-grid-left"> <span class="p-icon1"> </span> </div>
+            <div class="portfolio-top-left-grid-right">
+              <h5>Sail Away Your Worries</h5>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="portfolio-top-left-grid">
+            <div class="portfolio-top-left-grid-left"> <span class="p-icon2"> </span> </div>
+            <div class="portfolio-top-left-grid-right">
+              <h5>All-star support team</h5>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="portfolio-top-left-grid">
+            <div class="portfolio-top-left-grid-left"> <span class="p-icon3"> </span> </div>
+            <div class="portfolio-top-left-grid-right">
+              <h5>fully Integrated service</h5>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"> </div>
+    <!-- portfolio-works -->
+    <div class=""> </div>
+    <div class="portfolio-works grid">
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="0.2s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2>Muscle <span>Building</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Muscle Building" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="0.4s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2><span>Running</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Running" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="0.6s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2><span>Stretching</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Stretching" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="0.7s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2>Power <span>Lifting</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Power Lifting" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="0.9s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2>Fitness <span>Training</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Fitness Training" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="col-xs-4 portfolio-work-grid wow fadeIn" data-wow-delay="1.1s">
+        <div class="effect-roxy"> <img src="http://placehold.it/634x493" title="name" alt="" />
+          <figcaption>
+            <h2>Battle <span>Ropes</span></h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <a href="http://placehold.it/634x493" rel="Battle Ropes" class="b-link-stripe b-animate-go thickbox pop-img">View more</a> </figcaption>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <!-- portfolio-works -->
+  </div>
+</div>
+<!-- portfolio -->
+<!-- about -->
+<div class="about relative" > <span class="hotspot" id="about"></span>
+  <div class="wrap">
+    <div class="about-head">
+      <h1>About us</h1>
+      <span> </span> </div>
+    <!--start-about-time-line-->
+    <div>
+      <ul class="about-time-line">
+        <li>
+          <div class="cbp_tmicon img1"> </div>
+          <div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+            <h2>July 2015 Our Humble Beginnings</h2>
+            <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="cbp_tmicon1 img2"> </div>
+          <div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+            <h2>January 2016 Facing Startup Battles </h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="cbp_tmicon2 img3"> </div>
+          <div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+            <h2>December 2016 Enter The Dark Days </h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="cbp_tmicon3 img4"> </div>
+          <div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+            <h2>January 2017 Our Triumph </h2>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="cbp_tmicon4 img5"> </div>
+          <div class="clearfix"></div>
+        </li>
+      </ul>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+  <!--//End-about-time-line-->
+  <!-- about -->
+</div>
+<!-- /client -->
+<div class="client-agile-info" id="client">
+  <div class="container">
+    <div class="client-top">
+      <h3 class="tittle two">What Our clients Say</h3>
+      <div class="slider">
+        <div class="callbacks_container">
+          <ul class="rslides" id="slider4">
+            <li>
+              <div class="agileits-clients">
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i> </div>
+                  <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                  <h4><img src="http://placehold.it/100x100" alt=""> Martin H. Joseph</h4>
+                </div>
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i> </div>
+                  <p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                  <h4><img src="http://placehold.it/100x100" alt=""> Martin H.Wilson</h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </li>
+            <li>
+              <div class="agileits-clients">
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i></div>
+                  <p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                  <h4><img src="http://placehold.it/100x100" alt=""> Martin H.Wilson</h4>
+                </div>
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i> </div>
+                  <p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                  <h4><img src="http://placehold.it/100x100" alt=""> Martin Pal</h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </li>
+            <li>
+              <div class="agileits-clients">
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i> </div>
+                  <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                  <h4><img src="http://placehold.it/100x100" alt=""> Martin H. Joseph</h4>
+                </div>
+                <div class="col-md-6 client_agile_info">
+                  <div class="c-img"><i class="fa fa-quote-right"></i></div>
+                  <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                  <h4> <img src="http://placehold.it/100x100" alt=""> Martin Pal</h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //client -->
+<!-- team -->
+<div class="team-members relative"> <span id="team" class="hotspot"></span>
+  <div class="wrap">
+    <div class="tm-head">
+      <h3>our amazing trainers</h3>
+      <p>Proin iaculis purus consequat sem cure.</p>
+    </div>
+    <div class="tm-head-grids">
+      <div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s"> <img src="http://placehold.it/200x200" alt="">
+        <h4>Kimberly Thompson</h4>
+        <h5>Body building</h5>
+        <ul class="top-social-icons">
+          <li><a class="twitter" href="#"> </a></li>
+          <li><a class="facebook" href="#"> </a></li>
+          <li><a class="pin" href="#"> </a></li>
+        </ul>
+      </div>
+      <div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s"> <img src="http://placehold.it/200x200" alt="">
+        <h4>Rico Massimo</h4>
+        <h5>Fighting Trainer</h5>
+        <ul class="top-social-icons">
+          <li><a class="twitter" href="#"> </a></li>
+          <li><a class="facebook" href="#"> </a></li>
+          <li><a class="pin" href="#"> </a></li>
+        </ul>
+      </div>
+      <div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s"> <img src="http://placehold.it/200x200" alt="">
+        <h4>Uku Mason</h4>
+        <h5>Muscle trainer</h5>
+        <ul class="top-social-icons">
+          <li><a class="twitter" href="#"> </a></li>
+          <li><a class="facebook" href="#"> </a></li>
+          <li><a class="pin" href="#"> </a></li>
+        </ul>
+      </div>
+      <div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s"> <img src="http://placehold.it/200x200" alt="">
+        <h4>James Woods</h4>
+        <h5>Cycling Trainer</h5>
+        <ul class="top-social-icons">
+          <li><a class="twitter" href="#"> </a></li>
+          <li><a class="facebook" href="#"> </a></li>
+          <li><a class="pin" href="#"> </a></li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <p class="team-info">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+  </div>
+</div>
+<!-- team -->
+<!-- Plans -->
+<div class="tm-head plans">
+  <h3>our awsome plans</h3>
+</div>
+<div class="plans_main_grids">
+  <div class="plans_agile_main_grid plans_agileits_pricing_grid">
+    <div class="wthree_learning_grid1">
+      <div class="plansls_pricing_grid_top">
+        <h3>$ <span class="counter agile_counter">230</span></h3>
+        <p>Starter</p>
+        <div class="plansls_pricing_grid_top_pos">
+          <h4>Muscle Build Pro</h4>
+        </div>
+      </div>
+      <div class="plansl_pricing_grid_content">
+        <ul class="plans_count">
+          <li><i class="fa fa-check" aria-hidden="true"></i>3 days a week program</li>
+          <li><i class="fa fa-check plans_icon" aria-hidden="true"></i>Professional Trainers</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i>Fat Burn Pro</li>
+        </ul>
+      </div>
+      <div class="plans_agile_learning_grid1_pos"> <a data-toggle="modal" data-target="#small-dialog-2" class="plans_agileits_sign_up popup-with-zoom-anim">Sign Up</a> </div>
+    </div>
+  </div>
+  <div class="agile_main_grid plans_agileits_pricing_grid">
+    <div class="agileinfo_learning_grid1">
+      <div class="plansls_pricing_grid_top wthree_pricing_grid_top">
+        <h3>$ <span class="counter agile_counter1">540</span></h3>
+        <p>Team</p>
+        <div class="plansls_pricing_grid_top_pos">
+          <h4>Women Training</h4>
+        </div>
+      </div>
+      <div class="plansl_pricing_grid_content">
+        <ul class="plans_count">
+          <li><i class="fa fa-check" aria-hidden="true"></i>3 days a week program</li>
+          <li><i class="fa fa-check plans_icon" aria-hidden="true"></i>Professional Trainers</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i>Fat Burn Pro</li>
+        </ul>
+      </div>
+      <div class="plans_agile_learning_grid1_pos"> <a data-toggle="modal" data-target="#small-dialog-2" class="plans_agileits_sign_up1 popup-with-zoom-anim">Sign Up</a> </div>
+    </div>
+  </div>
+  <div class="agileits_plans_main_grid plans_agileits_pricing_grid">
+    <div class="agileits_learning_grid1">
+      <div class="plansls_pricing_grid_top wthree_pricing_grid_top1">
+        <h3>$ <span class="counter agile_counter2">630</span></h3>
+        <p>Premium</p>
+        <div class="plansls_pricing_grid_top_pos">
+          <h4>Fat Burn Pro</h4>
+        </div>
+      </div>
+      <div class="plansl_pricing_grid_content">
+        <ul class="plans_count">
+          <li><i class="fa fa-check" aria-hidden="true"></i>3 days a week program</li>
+          <li><i class="fa fa-check plans_icon" aria-hidden="true"></i>Professional Trainers</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i>Fat Burn Pro</li>
+        </ul>
+      </div>
+      <div class="plans_agile_learning_grid1_pos"> <a data-toggle="modal" data-target="#small-dialog-2" class="plans_agileits_sign_up2 popup-with-zoom-anim">Sign Up</a> </div>
+    </div>
+  </div>
+  <div class="clearfix"> </div>
+</div>
+<!-- Plans -->
+<!-- Subscribe -->
+<div class="project relative" > <span id="contact" class="hotspot"></span>
+  <div class="container">
+    <div class="project-1 clock wow bounceIn">
+      <h3>Enter your email</h3>
+      <P>Craesent dapibus, neque id cursus fauci-bus, tortor neque egestas </P>
+      <form>
+        <input type="text" size="30px"  value="Email ID" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email ID';}">
+        <input type="submit" value="SUBSCRIBE">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Subscribe -->
+<!-- contact -->
+<div id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grids">
+      <div class="col-md-6">
+        <div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+          <h3>Contact Us</h3>
+          <label>Drop us an email and say hello! </label>
+          <div class="contact-left-grids">
+            <div class="col-md-6">
+              <div class="contact-left-grid">
+                <p><span class="c-mobi"> </span>(123) 456-789</p>
+                <p><span class="c-twitter"> </span><a href="#">@gymtheme</a></p>
+                <p><span class="c-pluse"> </span><a href="#">plus.com/gymtheme</a></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-right-grid">
+                <p><span class="c-msg"> </span><a href="mailto:hello@dreams.com">hello@gymtheme.com</a></p>
+                <p><span class="c-face"> </span><a href="#">facebook.com/gymtheme</a></p>
+                <p><span class="c-pin"> </span><a href="#">pinterest.com/gymtheme</a></p>
+              </div>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
+          <form>
+            <input type="text" class="text" value="Name..." onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name...';}">
+            <input type="text" class="text" value="Email..." onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email...';}">
+            <textarea value="Message:" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+            <input class="wow shake" data-wow-delay="0.3s" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <!-- copy-right --->
+    <div class="copy-right text-center">
+      <p>Template by <a href="http://www.srgit.com/" target="_blank">SRGIT</a></p>
+      <script type="text/javascript" src="../js/scroll-top.js"></script>
+      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> </div>
+    <!-- copy-right --->
+  </div>
+</div>
+<!-- contact -->
+<!-- Core Javascript -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Banner Slider -->
+<script src="../js/owl-carousel/carousel.js"></script>
+<!-- Fixed header -->
+<script src="../js/fixed-header.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Number Counter -->
+<script src="../js/jquery.countup.js"></script>
+<script src="../js/single-page/count.js"></script>
+</body>
+<!-- Body Wrap -->
+</html>
